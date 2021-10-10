@@ -9,6 +9,7 @@ import { CompFooterComponent } from './components/comp-footer/comp-footer.compon
 import { CompCarouselComponent } from './components/comp-carousel/comp-carousel.component';
 import { CompBgSeparatorComponent } from './components/comp-bg-separator/comp-bg-separator.component';
 import { CompVideoComponent } from './components/comp-video/comp-video.component';
+import { CompMapComponent } from './components/comp-map/comp-map.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CompVideoComponent } from './components/comp-video/comp-video.component
     CompFooterComponent,
     CompCarouselComponent,
     CompBgSeparatorComponent,
-    CompVideoComponent
+    CompVideoComponent,
+    CompMapComponent
   ],
   imports: [
     BrowserModule,
