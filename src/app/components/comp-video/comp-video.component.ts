@@ -5,15 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './comp-video.component.html',
   styleUrls: ['./comp-video.component.scss'],
 })
-export class CompVideoComponent implements OnInit {
+export class CompVideoComponent {
   @Input() video!: string;
   constructor() {}
-  height = '240px';
-  aspect = 16 / 9;
-
-  ngOnInit(): void {
-    this.calculaVideoAltura();
-  }
-
-  public calculaVideoAltura() {}
 }
